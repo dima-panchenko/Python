@@ -1,0 +1,19 @@
+a=int(input())
+b=a%10
+c=a//10%10
+v=a//100%10
+n=a//1000%10
+Z=b*1000+c*100+v*10+n
+print(Z)'''
+'''a=int(input())
+b=int(input())
+c=int(input())
+z=int(input())
+if a>b and a>c and a>z:
+    print(a)
+elif b>a and b>c and b>z:
+    print(b)
+elif c>a and c>b and c>z:
+    print(c)
+else:
+    print(z)
