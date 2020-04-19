@@ -1,0 +1,5 @@
+listNum1 = list(map(int, input().split()))
+listNum2 = list(map(int, input().split()))
+fSet = set(listNum1)
+sSet = set(listNum2)
+print(*sorted(fSet & sSet))
